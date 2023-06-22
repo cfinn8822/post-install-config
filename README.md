@@ -29,10 +29,25 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 1)Prerequisites and Installation
 
- -This demonstration assumes a Virtual Machine is established with the prerequisite files installed for working OS Ticket.
+  -This demonstration assumes a Virtual Machine is established with the prerequisite files installed for working OS Ticket.
+
+ 2)On the web browser,go to your Help Desk Login Page http://localhost/osTicket/scp/login.php. And sign into your help desk.
+
+<img src="https://i.imgur.com/mZpjphU.png.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+ 3)Once login you are on the Agent Panel.Click on the"Admin Panel"at the top-right of page.
+
+ <img src="https://i.imgur.com/tyjoyW4.png.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+ 4)Click on the"Agents"tab->"Roles"->"Add new role".
+
  
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/STO36vY.png.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+-Roles are permissions granted to the Agents per Department that they have access to.
+ *In the Definition tab, type any Role name of your choice (this example uses Supreme Admin).
+ -this role will we be given 
+<img src=".png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem 
@@ -42,7 +57,7 @@ Lorem
 <p>
   
 <img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem 
@@ -50,15 +65,15 @@ Lorem
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem
 </p>
 <br />
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
