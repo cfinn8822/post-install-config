@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-
+This demonstration will be a continuation of the osticket-prereqs
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
