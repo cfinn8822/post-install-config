@@ -4,8 +4,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This demonstration will be a continuation of the osticket-prereqs
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This demonstration will be a continuation of my (osticket-prereqs). I am going to assign Agents and Users for this exercise, as well as setting up the Roles and Departments of each Agent. The Users in this exercise will be submitting tickets. We will learn about SLA's and how to assign them as well.
 
 
 <h2>Environments and Technologies Used</h2>
@@ -46,7 +45,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/STO36vY.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
  - Roles are permissions granted to the Agents per Department that they have access to.
- *In the Definition tab, type any Role name of your choice (this example uses Supreme Admin).
+ *In the Definition tab, type any Role name of your choice for this example use (Supreme Admin).
  
   - Then click on the permissions tab.
  
@@ -64,11 +63,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
  - Click Add Department.
 
-
 <img src="https://i.imgur.com/dCAnXPQ.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-7)Create a Department name of your choice( for this example i am using System Administrators ).Skip everything else for the time being.
-
+7)Create a Department name of your choice for this example i am using (System Administrators). Skip everything else for the time being.
 
 <img src="https://i.imgur.com/DYLYvLB.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
@@ -76,10 +73,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Still in the Agents tab, click on the "Teams" category.
 
-
 <img src="https://i.imgur.com/YlqUi2d.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-9) Create a Team name of your choice( for this example i am using Level 2 Support)
+9) Create a Team name of your choice for this example i am using (Level 2 Support)
 
  - Click create Team.
 
@@ -91,10 +87,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 11)Create the required credentials for the workers.
 
- - First name(for this example jane)
- - Last name (for this example doe)
- - Email address(for this example jane.doe@osticket.com)
- - Username(for this example jane.doe)
+ - First name for this example is (jane).
+ - Last name for this example is (doe).
+ - Email address for this example is (jane.doe@osticket.com)
+ - Username for this example is (jane.doe)
 
 12)Click "Set Password", and a window prompt will appear.
 
@@ -107,27 +103,24 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 13)Click on the"Access" tab
 
- - Assign this user the Department that we created (this example uses System Administrators).
- - Assign this user the Role that we created (this example uses Supreme Admin).
- - Under Extended Access, assign this user the "Support"
- - Assign this user the "Supreme Admin" role.
- - Click Create
+ - Assign this user the Department that we created for this example use (System Administrators).
+ - Assign this user the Role that we created (Supreme Admin).
+ - Under Extended Access, assign this user the (Support)
+ - Assign this user the (Supreme Admin) role.
+ - Click "Create"
 
- 
 <img src="https://i.imgur.com/3mQuPkF.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-14)Click on the"Teams" tab
+14)Click on the "Teams" tab
 
- - Assign this user the Team that we created (this example uses Level II Support)
+ - Assign this user to the Team that we created (Level 2 Support)
  - Once done, click "Create"
-
 
 <img src="https://i.imgur.com/n6rY5X1.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-15)Create another Agent following the steps, however assign it to a different Role and Department.
+15)Create another Agent following the steps above, however assign it to a different Role and Department.
 
- - This example creates Agent "John Doe" | Department: "Level I Support" | Role: "View only | Extended Access: Support".
-
+ - This example create Agent "John Doe", Department: (Level I Support), Role: (View only), Extended Access: (Support).
 
 <img src="https://i.imgur.com/gmWITrd.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
@@ -139,18 +132,18 @@ This tutorial outlines the post-install configuration of the open-source help de
 
  - Click on the "Users" tab.
  - Click on "Add User".
- - Create an Email Address and Full Name for this user( this example uses karen@osticket.com / Karen Karen ).
+ - Create an Email Address and Full Name for this user for this example i am using (karen@osticket.com / Karen Karen).
  - Click "Add User".
 
 <img src="https://i.imgur.com/PtJfzjT.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/5ZXl6oc.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-17)Create another user of your choice (this example uses ken@osticket.com / Ken Ken)
+17)Create another user of your choice follow steps from above (ken@osticket.com / Ken Ken)
 
 <img src="https://i.imgur.com/pBotAdb.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-18)Admin Panel - Configuring SLA
+18)Admin Panel - Configuring "SLA's"
 
  - "SLA Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed."
  - Return to the "Admin Panel".
@@ -197,6 +190,3 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/aOkRyta.png.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 COMPLETE!!!
-
-
-
